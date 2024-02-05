@@ -16,10 +16,10 @@ The Tokio Couse is designed to provide participants with a comprehensive underst
 
 This repository contains the following projects completed as part of the course:
 
-- [Project 1 Name](#project-1-name)
-- [Project 2 Name](#project-2-name)
-- [Project 3 Name](#project-3-name)
-- [Project 4 Name](#project-4-name)
+- [Animal Heritage](https://github.com/domingosneto03/Tokio/tree/main/OOP/Animal%20Heritage)
+- [Bank Account](https://github.com/domingosneto03/Tokio/tree/main/OOP/Bank%20Account)
+- [School System](https://github.com/domingosneto03/Tokio/tree/main/OOP/School%20System)
+- [Shadow SLave](https://github.com/domingosneto03/Tokio/tree/main/OOP/Shadow%20Slave)
 
 Each project focuses on different aspects of Java programming and Object-Oriented Programming principles, providing hands-on experience with various concepts and techniques.
 
@@ -27,10 +27,10 @@ Each project focuses on different aspects of Java programming and Object-Oriente
 
 Here's a brief description of each project:
 
-1. **Project 1 Name**: [Brief description of project 1]
-2. **Project 2 Name**: [Brief description of project 2]
-3. **Project 3 Name**: [Brief description of project 3]
-4. **Project 4 Name**: [Brief description of project 4]
+1. **Animal Heritage**: This is a small project where the user can create an animal of its choice. The focus is mainly on the class heritage and its applications.
+2. **Bank Account**: A project where the user can open a bank account and exploit its features. The purpose of this work is to understand encapsulation where the programmer uses different access types to classes.
+3. **School System**: In this scenario, the user is a school coordinator where he can admit new students to attend his school.
+4. **Shadow Slave**: This project simulates a fight game between characters of the novel Shadow Slave. It is a 1v1 for two players that have to use easy strategy to win. The objective of the project is to understand the fundamentals of the use of interfaces.
 
-For detailed instructions and documentation for each project, refer to the respective project folders.
+For detailed documentation for each project, refer to the respective project folders.
 
