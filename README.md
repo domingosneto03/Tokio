@@ -1,4 +1,4 @@
-# Java and Object-Oriented Programming (OOP) Formation Course Projects
+# Tokio
 
 Welcome to the repository for the projects completed during the Tokio formation course. This repository contains a collection of Java projects focusing on various aspects of object-oriented programming concepts and OCP certification.
 
