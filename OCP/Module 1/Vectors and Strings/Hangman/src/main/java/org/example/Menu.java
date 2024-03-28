@@ -8,25 +8,17 @@ public class Menu {
         System.out.println("Escolhe uma das opções" +
                 "\n\t (1) Player vs Player" +
                 "\n\t (2) Player vs Computer" +
-                "\n\t (3) Regras" +
-                "\n\t (4) Sair");
+                "\n\t (3) Sair");
         int choice = Integer.parseInt(in.nextLine());
         switch (choice) {
             case 1 -> pvpMenu();
             case 2 -> pvcMenu();
-            case 3 -> rulesMenu();
-            case 4 -> System.exit(0);
+            case 3 -> System.exit(0);
             default -> {
                 System.out.println("Opção inválida. Tente novamente");
                 mainMenu();
             }
         }
-    }
-
-    private void rulesMenu() {
-        System.out.println("Brevemente...");
-        System.out.println();
-        mainMenu();
     }
 
     private void pvcMenu() {
