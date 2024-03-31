@@ -3,7 +3,6 @@ package M1_T06_P25;
 public class Main {
 
 	public static void main(String[] args) {
-		
 		Baralho baraja = new Baralho();
         Molho molho = baraja.getMolho();
         System.out.println(molho.toString());

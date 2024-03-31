@@ -6,15 +6,17 @@ import java.util.List;
 
 public class Molho {
 	
-	 	List cartas;
+	 	List<Carta> cartas;
 	    private AlgoritmoOrdenacao algoritmo;
 
 	    public void setAlgoritmo(AlgoritmoOrdenacao algoritmo) {
 	        // Establece o algoritmo de ordenacao
+			this.algoritmo = algoritmo;
 	    }
 
 	    public void ordena() {
 	        // Executa o algoritmo de ordenacao
+			if(algoritmo != null) algoritmo.ordena(cartas);
 	    }
 
 	    /**
