@@ -1,7 +1,5 @@
 package tokio;
 
-import java.util.List;
-
 public class Orquestra extends Instrumentos{
     private final String[] instrumentos = {"Timbale", "Xilofone", "Violino", "Contrabaixo", "Tuba", "Saxafone"};
     @Override
@@ -15,27 +13,27 @@ public class Orquestra extends Instrumentos{
     private String pickInstrument(String instrumento, String nota) {
         switch (instrumento) {
             case "Timbale" -> {
-                Timbale x = new Timbale();
+                Percursao.Timbale x = new Percursao.Timbale();
                 return x.tocar(nota);
             }
             case "Xilofone" -> {
-                Xilofone x = new Xilofone();
+                Percursao.Xilofone x = new Percursao.Xilofone();
                 return x.tocar(nota);
             }
             case "Violino" -> {
-                Violino x = new Violino();
+                Cordas.Violino x = new Cordas.Violino();
                 return x.tocar(nota);
             }
             case "Contrabaixo" -> {
-                Contrabaixo x = new Contrabaixo();
+                Cordas.Contrabaixo x = new Cordas.Contrabaixo();
                 return x.tocar(nota);
             }
             case "Tuba" -> {
-                Tuba x = new Tuba();
+                Sopro.Tuba x = new Sopro.Tuba();
                 return x.tocar(nota);
             }
             default -> {
-                Saxofone x = new Saxofone();
+                Sopro.Saxofone x = new Sopro.Saxofone();
                 return x.tocar(nota);
             }
         }

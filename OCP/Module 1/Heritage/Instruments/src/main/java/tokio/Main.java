@@ -14,17 +14,17 @@ public class Main {
         System.out.println();
 
         System.out.println("Instrumento de Percursão:");
-        Timbale timbale = new Timbale();
+        Percursao.Timbale timbale = new Percursao.Timbale();
         System.out.println(timbale.tocar(randomNote()));
         System.out.println();
 
         System.out.println("Instumento de Cordas:");
-        Violino violino = new Violino();
+        Cordas.Violino violino = new Cordas.Violino();
         System.out.println(violino.tocar(randomNote()));
         System.out.println();
 
         System.out.println("Instrumento de Sopro:");
-        Tuba tuba = new Tuba();
+        Sopro.Tuba tuba = new Sopro.Tuba();
         System.out.println(tuba.tocar(randomNote()));
         System.out.println();
 
