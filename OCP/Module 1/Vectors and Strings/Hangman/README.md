@@ -1,13 +1,13 @@
 # Hangman
-Hangman is a game made in Java where two players can challenge each other's capacity of guessing the correct word. User interaction is achieved by only using the console. The player with most pints wins the game!
+Hangman is a game made in Java where two players can challenge each other's capacity of guessing the correct word. User interaction is achieved by only using the console. The player with the most points wins the game!
 
 ![Screenshot 8](screenshots/hangman-v1-sc8.gif)
 
 ## How to play
-- In PlayervsPlayer mode, the first player gets to choose how many rounds the game will have.
+- In Player vs Player mode, the first player gets to choose how many rounds the game will have.
 - Then the same player chooses the word's difficulty and the second player has to create a word obeying that difficulty.
 - The game begins! If the first player guesses the word correctly, gains points according to the difficulty, otherwise the opponent wins 5 points.
-- Turns hange. After all the rounds, the game finishes and the stats are displayed.
+- Turns change. After all the rounds, the game finishes and the stats are displayed.
 
   ![Screenshot 2](screenshots/hangman-v1-sc2.png)
   ![Screenshot 1](screenshots/hangman-v1-sc1.png)
@@ -18,7 +18,7 @@ Hangman is a game made in Java where two players can challenge each other's capa
 ## Rules
 - One player plays at a time.
 - No looking into the computer when it is your opponent's turn!! No one likes cheaters.
-- Just one charecter from the keyboard allowed
+- Just one character from the keyboard allowed
 - Symbols or numbers are not accepted, only letters.
 
   ![Screenshot 6](screenshots/hangman-v1-sc6.png)
@@ -33,7 +33,7 @@ Hangman is a game made in Java where two players can challenge each other's capa
 
 
 ## To be developed
-- PlayervsComputer mode: computer only chooses the word and player has to discover. Rules and systems to be established
+- Player vs Computer mode: computer only chooses the word and player has to discover. Rules and systems to be established
 - Prevention of unknown words of the portuguese or english dictionary.
 - Prevention of swear words.
 - Game interface to substitute the console
