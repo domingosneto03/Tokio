@@ -31,8 +31,5 @@ public class Main {
             if(timeLeft.getMonths()>0) System.out.println("Que emocionante! " + meses + dias + "para fazeres anos!");
             else System.out.println("Wow é já este mês! " + dias2 + "para o teu aniversário!");
         }
-        System.out.println();
-
-
     }
 }
