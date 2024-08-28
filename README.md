@@ -16,7 +16,7 @@ The Tokio Couse is designed to provide participants with a comprehensive underst
 
 This repository contains the following projects completed as part of the course:
 
-... loading ...
+`...loading...`
 
 Each project focuses on different aspects of Java programming and Object-Oriented Programming principles, providing hands-on experience with various concepts and techniques.
 
@@ -24,7 +24,7 @@ Each project focuses on different aspects of Java programming and Object-Oriente
 
 Here's a brief description of each project:
 
-... loading ...
+`...loading...`
 
 For detailed documentation for each project, refer to the respective project folders.
 
